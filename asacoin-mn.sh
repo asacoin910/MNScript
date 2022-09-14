@@ -15,8 +15,8 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 #TCP port
-PORT=53330
-RPC=53331
+PORT=19330
+RPC=19660
 
 #Clear keyboard input buffer
 function clear_stdin { while read -r -t 0; do read -r; done; }
@@ -201,11 +201,10 @@ masternode=1
 externalip=$publicip:$PORT
 masternodeaddr=$publicip:$PORT
 masternodeprivkey=$genkey
-addnode=45.130.104.65
-addnode=155.138.247.115
-addnode=45.76.234.234
-addnode=144.202.70.149
-addnode=45.32.193.245
+addnode=155.138.231.93
+addnode=45.76.253.180
+addnode=155.138.210.180
+addnode=45.76.252.37
 
  
 EOF
