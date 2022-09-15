@@ -54,7 +54,7 @@ This guide will assist you in setting up a Asacoin Masternode on a Linux Server 
 ##### 2. Send Collateral amount of Asacoin to copied address
 
 ##### 3. Open console Get MN output and set masternode configuration file and save it
-- ```mn1 VPS_IP:19330 masternode_genkey masternode_output output_index```:
+- ```mn1 VPS_IP:19660 masternode_genkey masternode_output output_index```:
 
 ##### 4. Wait at least 15 confirmation of transaction
 
