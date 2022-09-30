@@ -130,8 +130,8 @@ fi
 #Installing Daemon
 cd ~
 rm -rf /usr/local/bin/asacoin*
-wget https://github.com/asacoin910/asacoin/releases/download/1.0.0/asacoin-1.0.0-linux.tar.gz
-tar -xzvf asacoin-1.0.0-linux.tar.gz
+wget https://github.com/asacoin910/asacoin/releases/download/1.0.1/asacoin-1.0.1-linux.tar.gz
+tar -xzvf asacoin-1.0.1-linux.tar.gz
 sudo chmod -R 755 asacoin-cli
 sudo chmod -R 755 asacoind
 cp -p -r asacoind /usr/local/bin
@@ -179,7 +179,7 @@ done
     asacoin-cli stop
     sleep 5
 cd ~/.asacoin && rm -rf blocks chainstate sporks zerocoin
-cd ~/.asacoin && wget https://github.com/asacoin910/asacoin/releases/download/1.0.0/bootstrap.zip
+cd ~/.asacoin && wget https://github.com/asacoin910/asacoin/releases/download/1.0.1/bootstrap.zip
 cd ~/.asacoin && unzip bootstrap.zip
 sudo rm -rf ~/.asacoin/bootstrap.zip
 
