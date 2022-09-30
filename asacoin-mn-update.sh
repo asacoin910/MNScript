@@ -30,10 +30,10 @@ crontab -l | grep -v 'asacoinauto.sh' | crontab -
 stop_daemon
 
 rm -rf /usr/local/bin/asacoin*
-mkdir ASACOIN_1.0.0
-cd ASACOIN_1.0.0
-wget https://github.com/asacoin910/asacoin/releases/download/1.0.0/asacoin-1.0.0-linux.tar.gz
-tar -xzvf asacoin-1.0.0-linux.tar.gz
+mkdir ASACOIN_1.0.1
+cd ASACOIN_1.0.1
+wget https://github.com/asacoin910/asacoin/releases/download/1.0.1/asacoin-1.0.1-linux.tar.gz
+tar -xzvf asacoin-1.0.1-linux.tar.gz
 mv asacoind /usr/local/bin/asacoind
 mv asacoin-cli /usr/local/bin/asacoin-cli
 chmod +x /usr/local/bin/asacoin*
@@ -42,11 +42,11 @@ rm -rf ~/.asacoin/chainstate
 rm -rf ~/.asacoin/sporks
 rm -rf ~/.asacoin/peers.dat
 cd ~/.asacoin/
-wget https://github.com/asacoin910/asacoin/releases/download/1.0.0/bootstrap.zip
+wget https://github.com/asacoin910/asacoin/releases/download/1.0.1/bootstrap.zip
 unzip bootstrap.zip
 
 cd ..
-rm -rf ~/.asacoin/bootstrap.zip ~/ASACOIN_1.0.0
+rm -rf ~/.asacoin/bootstrap.zip ~/ASACOIN_1.0.1
 
 
 # add new nodes to config file
