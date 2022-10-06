@@ -20,7 +20,7 @@ function stop_daemon {
 }
 
 
-echo "Your Asacoin Masternode Will be Updated To The Latest Version v1.0.0 Now" 
+echo "Your Asacoin Masternode Will be Updated To The Latest Version v1.0.1 Now" 
 sudo apt-get -y install unzip
 
 #remove crontab entry to prevent daemon from starting
